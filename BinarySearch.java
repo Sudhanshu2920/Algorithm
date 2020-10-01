@@ -37,7 +37,7 @@ y[i]=list.get(i);
 }
 Arrays.sort(y);
 
-System.out.println("Enter the element you want to search");
+System.out.println("Enter the element which you want to search");
 Scanner sc=new Scanner(System.in);
 int z=sc.nextInt();
 
