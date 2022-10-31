@@ -1,5 +1,6 @@
 # Algorithm
 
+
 This repository is for all the codes which i have to code during my laboratory of Algorithm course in my institute 
 
 Fork, clone, play with the code and feel free to PR for any issues or new contributions to TheAlgos! 🖥️ 
@@ -15,3 +16,6 @@ Rules for contributions...
 Happy coding...
  
 < Made with :heart: by Contributors. >
+
+This Repository contains my codes of algorithm.
+This repository is for all the codes which i have to code during my laboratory of Algorithm course in my institute.

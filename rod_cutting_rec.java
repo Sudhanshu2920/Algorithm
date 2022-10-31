@@ -1,0 +1,38 @@
+import java.io.*;
+import java.util.Scanner;
+class RodCut{
+    int cut_rod(int[] p,int n){
+        if (n==0){
+            return 0;
+        }
+        if(r[n]==0)
+            r[n]= cut_rod(p, n-1);
+        else
+            r[n]= max(p[i], r[n-1]);
+        }
+int max(int a,int b){
+    if(a>b){
+        return a;
+    }
+    else{
+        return b;
+    }
+}
+
+}
+class uk{
+    public static void main(String args[]){
+    Scanner sc= new Scanner(System.in);
+    int n=sc.nextInt();
+    //int p[]= {0,1,5,8,9,10,17,17,20,24,30};
+
+    int p[]= new int[n+1];
+    for(int i=0;i<n;i++){
+        p[i]= sc.nextInt();
+    }
+
+RodCut r = new RodCut();
+
+System.out.println(r.cut_rod(p,n));
+}
+}
